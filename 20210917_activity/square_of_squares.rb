@@ -6,10 +6,12 @@ if number >= 0 && (number % 1 == 0)
         sq = i*i
 
         if number == sq
-            puts "Number is a perfect square! :)"
+            # puts "Number is a perfect square! :)"
+            puts true
             break
         elsif sq > number
-            puts "Number is not a perfect square! :("
+            # puts "Number is not a perfect square! :("
+            puts false
             break
         end
     end
