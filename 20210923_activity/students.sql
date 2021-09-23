@@ -31,6 +31,20 @@ WHERE id=1;
 -- delete records
 DELETE FROM students WHERE id=6;
 
+-- display count of all students
+SELECT COUNT(*) FROM students;
+
+-- select all students with location = Manila
+SELECT * FROM students WHERE location='Manila';
+
+-- display average age of all students
+SELECT AVG(age) FROM students;
+
+-- display all students by age in descending order
+SELECT * FROM students ORDER BY age DESC;
 
 
+
+-- SOME LEARNINGS
+-- postgres SQL doesn't like double quotes
 
